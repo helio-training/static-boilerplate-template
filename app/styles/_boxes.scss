@@ -1,0 +1,22 @@
+@import 'variables';
+
+.box {
+  height: 200px;
+  background: $box-color;
+  margin: 5px;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.big-box {
+  flex-grow: 3;
+}
+
+.box-bottom-dweller {
+  align-self: flex-end;
+}
+
+.box-container {
+
+}
